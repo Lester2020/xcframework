@@ -1,0 +1,1653 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YZSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TestTools",
+        "printedName": "TestTools",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TestTools",
+                "printedName": "YZSDK.TestTools",
+                "usr": "c:@M@YZSDK@objc(cs)TestTools"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5YZSDK9TestToolsC6sharedACvpZ",
+            "mangledName": "$s5YZSDK9TestToolsC6sharedACvpZ",
+            "moduleName": "YZSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TestTools",
+                    "printedName": "YZSDK.TestTools",
+                    "usr": "c:@M@YZSDK@objc(cs)TestTools"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5YZSDK9TestToolsC6sharedACvgZ",
+                "mangledName": "$s5YZSDK9TestToolsC6sharedACvgZ",
+                "moduleName": "YZSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "test",
+            "printedName": "test()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5YZSDK9TestToolsC4testyyF",
+            "mangledName": "$s5YZSDK9TestToolsC4testyyF",
+            "moduleName": "YZSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TestTools",
+                "printedName": "YZSDK.TestTools",
+                "usr": "c:@M@YZSDK@objc(cs)TestTools"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@YZSDK@objc(cs)TestTools(im)init",
+            "mangledName": "$s5YZSDK9TestToolsCACycfc",
+            "moduleName": "YZSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@YZSDK@objc(cs)TestTools",
+        "mangledName": "$s5YZSDK9TestToolsC",
+        "moduleName": "YZSDK",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YZSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ModelProtocol",
+        "printedName": "ModelProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "decodeModel",
+            "printedName": "decodeModel(dict:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5YZSDK13ModelProtocolP06decodeB04dictxSgSDySSypG_tF",
+            "mangledName": "$s5YZSDK13ModelProtocolP06decodeB04dictxSgSDySSypG_tF",
+            "moduleName": "YZSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : YZSDK.ModelProtocol>",
+            "sugared_genericSig": "<Self where Self : YZSDK.ModelProtocol>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:5YZSDK13ModelProtocolP",
+        "mangledName": "$s5YZSDK13ModelProtocolP",
+        "moduleName": "YZSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BaseModel",
+        "printedName": "BaseModel",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BaseModel",
+                "printedName": "YZSDK.BaseModel",
+                "usr": "s:5YZSDK9BaseModelC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5YZSDK9BaseModelCACycfc",
+            "mangledName": "$s5YZSDK9BaseModelCACycfc",
+            "moduleName": "YZSDK",
+            "declAttributes": [
+              "AccessControl",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "decodeModel",
+            "printedName": "decodeModel(dict:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Self?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DynamicSelf",
+                    "printedName": "Self"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5YZSDK9BaseModelC06decodeC04dictACXDSgSDySSypG_tF",
+            "mangledName": "$s5YZSDK9BaseModelC06decodeC04dictACXDSgSDySSypG_tF",
+            "moduleName": "YZSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5YZSDK9BaseModelC",
+        "mangledName": "$s5YZSDK9BaseModelC",
+        "moduleName": "YZSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ModelProtocol",
+            "printedName": "ModelProtocol",
+            "usr": "s:5YZSDK13ModelProtocolP",
+            "mangledName": "$s5YZSDK13ModelProtocolP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YZSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "YZSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YZSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "YZSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "HandyJSON",
+        "printedName": "HandyJSON",
+        "declKind": "Import",
+        "moduleName": "YZSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ResponseKit",
+        "printedName": "ResponseKit",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (YZSDK.ResponseKit<τ_0_0>.Type) -> (τ_0_0) -> YZSDK.ResponseKit<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0) -> YZSDK.ResponseKit<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ResponseKit",
+                        "printedName": "YZSDK.ResponseKit<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:5YZSDK11ResponseKitO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YZSDK.ResponseKit<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ResponseKit",
+                        "printedName": "YZSDK.ResponseKit<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:5YZSDK11ResponseKitO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5YZSDK11ResponseKitO7successyACyxGxcAEmlF",
+            "mangledName": "$s5YZSDK11ResponseKitO7successyACyxGxcAEmlF",
+            "moduleName": "YZSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0> (YZSDK.ResponseKit<τ_0_0>.Type) -> (Any) -> YZSDK.ResponseKit<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Any) -> YZSDK.ResponseKit<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ResponseKit",
+                        "printedName": "YZSDK.ResponseKit<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:5YZSDK11ResponseKitO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(error: Any)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YZSDK.ResponseKit<τ_0_0>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ResponseKit",
+                        "printedName": "YZSDK.ResponseKit<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:5YZSDK11ResponseKitO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5YZSDK11ResponseKitO5erroryACyxGyp_tcAEmlF",
+            "mangledName": "$s5YZSDK11ResponseKitO5erroryACyxGyp_tcAEmlF",
+            "moduleName": "YZSDK"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5YZSDK11ResponseKitO",
+        "mangledName": "$s5YZSDK11ResponseKitO",
+        "moduleName": "YZSDK",
+        "genericSig": "<τ_0_0>",
+        "sugared_genericSig": "<T>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Var",
+        "name": "baseUrl",
+        "printedName": "baseUrl",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Var",
+        "usr": "s:5YZSDK7baseUrlSSvp",
+        "mangledName": "$s5YZSDK7baseUrlSSvp",
+        "moduleName": "YZSDK",
+        "declAttributes": [
+          "HasInitialValue",
+          "HasStorage",
+          "AccessControl"
+        ],
+        "isLet": true,
+        "hasStorage": true,
+        "accessors": [
+          {
+            "kind": "Accessor",
+            "name": "Get",
+            "printedName": "Get()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Accessor",
+            "usr": "s:5YZSDK7baseUrlSSvg",
+            "mangledName": "$s5YZSDK7baseUrlSSvg",
+            "moduleName": "YZSDK",
+            "implicit": true,
+            "accessorKind": "get"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkRequest",
+        "printedName": "NetworkRequest",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkRequest",
+                "printedName": "YZSDK.NetworkRequest",
+                "usr": "s:5YZSDK14NetworkRequestC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5YZSDK14NetworkRequestC6sharedACvpZ",
+            "mangledName": "$s5YZSDK14NetworkRequestC6sharedACvpZ",
+            "moduleName": "YZSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NetworkRequest",
+                    "printedName": "YZSDK.NetworkRequest",
+                    "usr": "s:5YZSDK14NetworkRequestC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5YZSDK14NetworkRequestC6sharedACvgZ",
+                "mangledName": "$s5YZSDK14NetworkRequestC6sharedACvgZ",
+                "moduleName": "YZSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "requestJson",
+            "printedName": "requestJson(path:baseUrl:method:params:headers:isNeedSign:encoding:completed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ApiPath",
+                "printedName": "YZSDK.ApiPath",
+                "usr": "s:5YZSDK7ApiPathO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethod",
+                "printedName": "Alamofire.HTTPMethod",
+                "hasDefaultArg": true,
+                "usr": "s:9Alamofire10HTTPMethodV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ParameterEncoding",
+                "printedName": "Alamofire.ParameterEncoding",
+                "hasDefaultArg": true,
+                "usr": "s:9Alamofire17ParameterEncodingP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((YZSDK.ResponseKit<[Swift.String : Any]>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(YZSDK.ResponseKit<[Swift.String : Any]>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ResponseKit",
+                        "printedName": "YZSDK.ResponseKit<[Swift.String : Any]>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Dictionary",
+                            "printedName": "[Swift.String : Any]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ],
+                            "usr": "s:SD"
+                          }
+                        ],
+                        "usr": "s:5YZSDK11ResponseKitO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5YZSDK14NetworkRequestC11requestJson4path7baseUrl6method6params7headers10isNeedSign8encoding9completedyAA7ApiPathO_SS9Alamofire10HTTPMethodVSDySSypGSgSDyS2SGSgSbAO17ParameterEncoding_pyAA11ResponseKitOyARGcSgtF",
+            "mangledName": "$s5YZSDK14NetworkRequestC11requestJson4path7baseUrl6method6params7headers10isNeedSign8encoding9completedyAA7ApiPathO_SS9Alamofire10HTTPMethodVSDySSypGSgSDyS2SGSgSbAO17ParameterEncoding_pyAA11ResponseKitOyARGcSgtF",
+            "moduleName": "YZSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(path:baseUrl:method:params:headers:isNeedSign:encoding:completed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ApiPath",
+                "printedName": "YZSDK.ApiPath",
+                "usr": "s:5YZSDK7ApiPathO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethod",
+                "printedName": "Alamofire.HTTPMethod",
+                "hasDefaultArg": true,
+                "usr": "s:9Alamofire10HTTPMethodV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ParameterEncoding",
+                "printedName": "Alamofire.ParameterEncoding",
+                "hasDefaultArg": true,
+                "usr": "s:9Alamofire17ParameterEncodingP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((YZSDK.ResponseKit<τ_0_0>) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(YZSDK.ResponseKit<τ_0_0>) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ResponseKit",
+                        "printedName": "YZSDK.ResponseKit<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:5YZSDK11ResponseKitO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5YZSDK14NetworkRequestC7request4path7baseUrl6method6params7headers10isNeedSign8encoding9completedyAA7ApiPathO_SS9Alamofire10HTTPMethodVSDySSypGSgSDyS2SGSgSbAO17ParameterEncoding_pyAA11ResponseKitOyxGcSgtAA9BaseModelCRbzlF",
+            "mangledName": "$s5YZSDK14NetworkRequestC7request4path7baseUrl6method6params7headers10isNeedSign8encoding9completedyAA7ApiPathO_SS9Alamofire10HTTPMethodVSDySSypGSgSDyS2SGSgSbAO17ParameterEncoding_pyAA11ResponseKitOyxGcSgtAA9BaseModelCRbzlF",
+            "moduleName": "YZSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : YZSDK.BaseModel>",
+            "sugared_genericSig": "<T where T : YZSDK.BaseModel>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "upload",
+            "printedName": "upload(url:data:complete:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YZSDK.ResponseKit<Swift.Bool>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ResponseKit",
+                    "printedName": "YZSDK.ResponseKit<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:5YZSDK11ResponseKitO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5YZSDK14NetworkRequestC6upload3url4data8completeySS_10Foundation4DataVyAA11ResponseKitOySbGctF",
+            "mangledName": "$s5YZSDK14NetworkRequestC6upload3url4data8completeySS_10Foundation4DataVyAA11ResponseKitOySbGctF",
+            "moduleName": "YZSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5YZSDK14NetworkRequestC",
+        "mangledName": "$s5YZSDK14NetworkRequestC",
+        "moduleName": "YZSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Function",
+        "name": "downloadFolder",
+        "printedName": "downloadFolder()",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "URL",
+            "printedName": "Foundation.URL",
+            "usr": "s:10Foundation3URLV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:5YZSDK14downloadFolder10Foundation3URLVyF",
+        "mangledName": "$s5YZSDK14downloadFolder10Foundation3URLVyF",
+        "moduleName": "YZSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YZSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "YZSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ApiPath",
+        "printedName": "ApiPath",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "guestLogin",
+            "printedName": "guestLogin",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YZSDK.ApiPath.Type) -> YZSDK.ApiPath",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApiPath",
+                    "printedName": "YZSDK.ApiPath",
+                    "usr": "s:5YZSDK7ApiPathO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YZSDK.ApiPath.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApiPath",
+                        "printedName": "YZSDK.ApiPath",
+                        "usr": "s:5YZSDK7ApiPathO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5YZSDK7ApiPathO10guestLoginyA2CmF",
+            "mangledName": "$s5YZSDK7ApiPathO10guestLoginyA2CmF",
+            "moduleName": "YZSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "serverTime",
+            "printedName": "serverTime",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(YZSDK.ApiPath.Type) -> YZSDK.ApiPath",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApiPath",
+                    "printedName": "YZSDK.ApiPath",
+                    "usr": "s:5YZSDK7ApiPathO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "YZSDK.ApiPath.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ApiPath",
+                        "printedName": "YZSDK.ApiPath",
+                        "usr": "s:5YZSDK7ApiPathO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5YZSDK7ApiPathO10serverTimeyA2CmF",
+            "mangledName": "$s5YZSDK7ApiPathO10serverTimeyA2CmF",
+            "moduleName": "YZSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5YZSDK7ApiPathO8rawValueSSvp",
+            "mangledName": "$s5YZSDK7ApiPathO8rawValueSSvp",
+            "moduleName": "YZSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5YZSDK7ApiPathO8rawValueSSvg",
+                "mangledName": "$s5YZSDK7ApiPathO8rawValueSSvg",
+                "moduleName": "YZSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "YZSDK.ApiPath?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ApiPath",
+                    "printedName": "YZSDK.ApiPath",
+                    "usr": "s:5YZSDK7ApiPathO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5YZSDK7ApiPathO8rawValueACSgSS_tcfc",
+            "mangledName": "$s5YZSDK7ApiPathO8rawValueACSgSS_tcfc",
+            "moduleName": "YZSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5YZSDK7ApiPathO",
+        "mangledName": "$s5YZSDK7ApiPathO",
+        "moduleName": "YZSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/TestTools.swift",
+      "kind": "StringLiteral",
+      "offset": 227,
+      "length": 21,
+      "value": "\"+++++++++++++++++++\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/String+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 265,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/String+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 679,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/String+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 1165,
+      "length": 10,
+      "value": "\"&YS1@#.\/\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/String+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 1241,
+      "length": 10,
+      "value": "\"@#$&ZXCV\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/String+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1877,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/String+Extension.swift",
+      "kind": "StringLiteral",
+      "offset": 1925,
+      "length": 6,
+      "value": "\"%02x\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 406,
+      "length": 39,
+      "value": "\"https:\/\/api2-sandbox.bacon.games\/api\/\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 612,
+      "length": 18,
+      "value": "\"phone_model_name\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 633,
+      "length": 8,
+      "value": "\"iPhone\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 651,
+      "length": 11,
+      "value": "\"bundle_id\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 665,
+      "length": 17,
+      "value": "\"games.bacon.ios\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 692,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 705,
+      "length": 4,
+      "value": "\"en\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 719,
+      "length": 13,
+      "value": "\"app_version\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 735,
+      "length": 7,
+      "value": "\"2.0.8\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 752,
+      "length": 8,
+      "value": "\"app_id\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 763,
+      "length": 2,
+      "value": "35"
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 775,
+      "length": 10,
+      "value": "\"timezone\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 828,
+      "length": 4,
+      "value": "3600"
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 843,
+      "length": 11,
+      "value": "\"device_id\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 857,
+      "length": 9,
+      "value": "\"abcdefg\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 931,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1231,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2363,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "Dictionary",
+      "offset": 3664,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 3779,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "Dictionary",
+      "offset": 3863,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 3918,
+      "length": 14,
+      "value": "\"35,iOS,2.0.8\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 3966,
+      "length": 9,
+      "value": "\"Version\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 4280,
+      "length": 6,
+      "value": "\"Sign\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 4512,
+      "length": 65,
+      "value": "\"http... 请求：\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 4573,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 4576,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 4984,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5030,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 5322,
+      "length": 54,
+      "value": "\"http... 请求失败：\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 5375,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 5791,
+      "length": 7,
+      "value": "\"%@.%@\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 5857,
+      "length": 30,
+      "value": "\"saveFileUrl = \""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 5886,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6089,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6254,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 6633,
+      "length": 6,
+      "value": "\"file\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 6651,
+      "length": 10,
+      "value": "\"file.jpg\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 6673,
+      "length": 12,
+      "value": "\"image\/jpeg\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6828,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7092,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 7116,
+      "length": 16,
+      "value": "\"DownloadFiles\/\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7392,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 7434,
+      "length": 55,
+      "value": "\"获取本地路径错误\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/NetworkRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 7488,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/ApiPath.swift",
+      "kind": "StringLiteral",
+      "offset": 152,
+      "length": 24,
+      "value": "\"Account\/loginWithGuest\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/ApiPath.swift",
+      "kind": "StringLiteral",
+      "offset": 204,
+      "length": 16,
+      "value": "\"AppInfo\/server\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/ApiPath.swift",
+      "kind": "StringLiteral",
+      "offset": 152,
+      "length": 24,
+      "value": "\"Account\/loginWithGuest\""
+    },
+    {
+      "filePath": "\/Users\/huajiao\/Documents\/demo\/YZSDK\/YZSDK\/Alamofire\/ApiPath.swift",
+      "kind": "StringLiteral",
+      "offset": 204,
+      "length": 16,
+      "value": "\"AppInfo\/server\""
+    }
+  ]
+}

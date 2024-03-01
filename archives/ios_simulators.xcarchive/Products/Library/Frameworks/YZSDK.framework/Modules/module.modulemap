@@ -1,0 +1,11 @@
+framework module YZSDK {
+  umbrella header "YZSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module YZSDK.Swift {
+  header "YZSDK-Swift.h"
+  requires objc
+}
